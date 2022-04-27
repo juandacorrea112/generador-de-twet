@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="primercontainer">
+        <div class="padre">
+            <div class="info">
+                <div class="titulo">
+                    <h1>BIENVENIDO</h1>
+                </div>
+                <div class="comentario">
+                    <p>deja tu comentario</p>
+                </div>
+            </div>
+            <div class="circulo">
+                <span class="apletra" id="letra"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="fatherform">
+        <div class="form">
+            <div class="disform">
+                <div class="tituloform">
+                    <h1>Bienvenido</h1>
+                </div>
+                <div class="continput">
+                    <input type="text" id="input1" placeholder="ingrese su nombre">
+                </div>
+                <div id="txt2" class="impretexttarea">
+                    <button class="btn" id = "btn">ENVIAR</button>
+                </div>
+                <div class="text">
+                    <textarea maxlength="200" class="form-control" name="" id="texTarea" onkeyup = "contador();" cols="50" rows="12" placeholder="Maximo 200 caracteres"></textarea>
+                </div>
+                <div class="containerContador">
+                    <p id = txtParraf></p>
+                </div>
+                <div class="impresionletra">
+                    <span class="textoletras" id = "imp"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    
+    <footer> juan david correa orozco @ santiago ortiz velez</footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
